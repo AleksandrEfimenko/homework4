@@ -1,0 +1,174 @@
+body{
+	width: 1280px;
+	height: 1060px;
+	margin: auto;
+}
+.backgroundstyle{
+	position: relative;
+}
+.s1{
+    width: 1280px;
+    height: 70px;
+    margin: 0;
+    background-color: #1297b7;
+    position: fixed;
+    z-index: 1;
+}
+.s2{
+    width: 1280px;
+    height: 145px;
+    margin-top: 70px;
+    background: linear-gradient(to top, #fafefe, #1bcfe2);
+    position: fixed;
+    z-index: 2;
+}
+.s3{
+    width: 1280px;
+    height: 845px;
+    margin-top: 215px;
+    background: linear-gradient(to top, #0c739f, #3dc2d0);
+    position: fixed;
+    z-index: 3;
+}
+.main{
+	width: 1000px;
+	height: 990px;
+	margin: 0px 140px 0px 140px;
+	border: solid 1px grey;
+	box-shadow: 0px 0px 5px 0px grey;
+	background-color: white;
+	position: absolute;
+	z-index: 4;
+}
+.leftblock{
+	width: 360px;
+	height: 215px;
+	float: left;
+}
+.leftblock p{
+	text-align: center;
+	color: #7bb3c4;
+}
+.rightblock{
+    width: 580px;
+	height: 215px;
+	float: right;
+}
+.contacts{
+	width: 180px;
+	height: 100px;
+	padding-left:400px; 
+	padding-top: 30px;
+}
+.contacts p{
+	text-align: left;
+	color: #7bb3c4;
+}
+.mainmenu{
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	width: 1000px;
+}
+.mainmenu ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+.mainmenu ul > li {
+    float: left;
+    position: relative;
+}
+.mainmenu ul > li{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.mainmenu ul > li:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 170px;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    border: 1px solid black;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+	background-color: #7bb3c4;
+}
+.mainmenu ul > li:hover > ul.submenu {
+    display: block;
+}
+.mainmenu :before,
+.mainmenu :after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.countryselect div{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+}
+.fon1 {  
+width: 100%;
+background: #3d2af0;
+float: left; 
+position: relative; 
+right: 30%; 
+}
+.fon2 {
+width: 100%;
+background: #e34456;
+float: left;
+position: relative;
+right: 40%; 
+}
+.fon3 {
+width: 100%;
+background: #e3e244;
+float: left;
+}
+.leftColumn {
+width: 30%;
+float: left;
+overflow: hidden; 
+position:relative;
+left:70%; 
+}
+.centerColumn {
+width: 30%;
+float: left;
+overflow: hidden;
+position:relative;
+left:70%;
+}
+.rightColumn {
+width: 39%;
+float: left;
+overflow: hidden;
+position:relative;
+left:70%;
+}
